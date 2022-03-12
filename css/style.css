@@ -1,0 +1,50 @@
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  #content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+}
+#content img {
+    width: 25%;
+    min-width: 100px;
+    padding: 10px;
+}
+#content:hover{
+    color: white;
+}
+
+ 
+ 
+  #padding{
+      padding-bottom: 50px;
+  }
+  .design{
+      display: none;
+  }
+  .dev{
+      display: none;
+  }
+  .product{
+      display: none;
+  }
+  .social-icons{
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
