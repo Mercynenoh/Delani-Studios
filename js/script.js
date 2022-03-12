@@ -9,3 +9,14 @@ $("#dev").click(function(){
         $(".product").toggle();
           });
 });
+
+$(document).ready(function(){
+    $("#white").click(function(){
+        $("body").removeClass();
+        $("body").addClass("btn-light");
+    });
+    $("#black").click(function(){
+        $("body").removeClass();
+        $("body").addClass("btn-dark");
+    });
+});
