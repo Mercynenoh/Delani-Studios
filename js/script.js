@@ -22,8 +22,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-$("#submit").click(function(){
-//    alert("Message sent")
+$(".image").hover(function(){
+    $(".text-block").toggle();
 
 })
 });
