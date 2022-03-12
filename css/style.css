@@ -59,3 +59,10 @@ h1{
       background-color: black;
       color: white;
   }
+
+  form{
+    opacity: 20%;
+  }
+ .form-control{
+   border: white;
+ }

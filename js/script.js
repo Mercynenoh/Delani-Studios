@@ -20,3 +20,10 @@ $(document).ready(function(){
         $("body").addClass("btn-dark");
     });
 });
+
+$(document).ready(function(){
+$("#submit").click(function(){
+//    alert("Message sent")
+
+})
+});

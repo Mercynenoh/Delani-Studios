@@ -24,13 +24,13 @@
             <a class="nav-link active" href="#begin">Home</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#about">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">What we do</a>
+            <a class="nav-link" href="#do">What we do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="#contact">Contact us</a>
           </li>
         </ul>
       </div>
@@ -44,7 +44,7 @@
     <h3>Choose mode:</h3>
     <button type="button" class="btn btn-light" id="white"> Light-mode</button>
 <button type="button" class="btn btn-dark" id="black">Dark-mode</button>
-    <h1>DELANI STUDIO</h1>
+    <h1 id="begin">DELANI STUDIO</h1>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./assets/backgrounds/h_img.jpg" alt="Studio pic" class="d-block w-100">
@@ -70,7 +70,7 @@
 
 <!-- about us -->
 <div>
-  <h2>ABOUT US</h2>
+  <h2 id="about">ABOUT US</h2>
   <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile. </p>
   <p>Our approach unifies, design, development and product management to create exceptional products.</p>
   <p>We start each project by understanding your business goals, the user's needs and the product requirements</p>
@@ -117,7 +117,7 @@
           </div>
 
           <div class="container-fluid">
-          <h2>WHAT WE DO</h2>
+          <h2 id="do">WHAT WE DO</h2>
           <br>
           <div class="row">
             <figure>
@@ -158,35 +158,37 @@
           <br>
            <!-- what we do -->
            <!-- portfolio -->
-           <div class="container">
+
             <h2>PORFOLIO</h2>
+            <div class="container">
             <div id="content">
-              <img src="./assets/portfolio/work1.jpg">
+
+              <img class="image" src="./assets/portfolio/work1.jpg">
               <img src="./assets/portfolio/work2.jpg">
               <img src="./assets/portfolio/work3.jpg">
-              <img src="./assets/portfolio/work4.jpg"> 
+              <img src="./assets/portfolio/work4.jpg">
             </div>
+            
             <div id="content">
            <img src="./assets/portfolio/work5.jpg"> 
              <img src="./assets/portfolio/work6.jpg"> 
             <img src="./assets/portfolio/work7.jpg">
             <img src="./assets/portfolio/work8.jpg">
             </div>
-            
-           
           </div>
+          
           <br>
           <br>
           <!-- portfolio -->
 
           <!-- contact us -->
-<div class="container-fluid">
+<div class="container-fluid" id="contact">
   <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/backgrounds/c_image.jpg" alt="Studio pic" class="d-block w-100 img">
+        <img id="" src="./assets/backgrounds/c_image.jpg" alt="Studio pic" class="d-block w-100 img">
         <div class="carousel-caption">
           <h1>Contact us</h1>
-          <form>
+          <form id="contactForm">
             <div class="row">
               <div class="col">
                 <input type="text" class="form-control" placeholder="Name" name="name">
@@ -196,8 +198,11 @@
               </div>
             </div>
             <label for="message">Message</label>
-<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+<textarea class="form-control" rows="5" id="comment"  placeholder="Enter your mesage here" name="text"></textarea>
+<br>
+          <button type="button" class="btn btn-secondary" id="submit"> Submit</button>
           </form>
+          
         </div>
       </div>
 </div>
