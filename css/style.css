@@ -28,10 +28,15 @@ h1{
     min-width: 100px;
     padding: 10px;
 }
-/* #content:hover{
-    color: white;
-} */
-
+#do{
+    padding-top: 50px;
+}
+.intro{
+    padding:135px;
+}
+#logo{
+    padding-bottom: 0px;
+}
  
  
   #padding{
@@ -61,7 +66,7 @@ h1{
   }
 
   form{
-    opacity: 20%;
+    opacity: 100%;
   }
  .form-control{
    border: white;
