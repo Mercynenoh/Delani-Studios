@@ -220,20 +220,25 @@
       <div class="carousel-item active">
         <img id="" src="./assets/backgrounds/c_image.jpg" alt="Studio pic" class="d-block w-100 img">
         <div class="carousel-caption">
-          <h1>Contact us</h1>
-          <form id="contactForm">
-            <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Name" name="name">
+          <h2 id="contact">CONTACT US</h2>
+          <form action="https://formspree.io/f/xeqnzqek"  method="POST">
+            <div class="row p-1" >
+              <div class="col-lg-6">
+                <label for="pwd" class="form-label" text-white></label>
+                <input type="text" class="form-control bg-transparent text-white" id="pwd" placeholder="Name" name="text">
               </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Email" name="email">
+              <div class="col-lg-6">
+                <label for="email" class="form-label"></label>
+                <input type="email" class="form-control bg-transparent text-white" id="email" placeholder="Email" name="email">
+              </div>
+                
+              <div class="form-check mb-3">
               </div>
             </div>
-            <label for="message">Message</label>
-<textarea class="form-control" rows="5" id="comment"  placeholder="Enter your mesage here" name="text"></textarea>
-<br>
-          <button type="button" class="btn btn-secondary" id="submit"> Submit</button>
+            <label for="comment"></label>
+            <textarea class="form-control bg-transparent text-white p-1" rows="5" id="comment" placeholder="Your message here...." name="text"></textarea>
+           
+            <button id="submit" type="submit" class="btn btn-secondary" text-align-center>Submit</button>
           </form>
           <p id="output"></p>
           
@@ -243,34 +248,15 @@
   
 <!-- contact us -->
 <div class="social-icons">
-  <a href=" http://twitter.com/" target="_blank">
-    <img src="./assets/social_icons/twitter.png">
- </a>
- <a href=" https://dribbble.com/" target="_blank">
-  <img src="./assets/social_icons/dribble.png">
-  </a>
-  <a href=" https://www.facebook.com/" target="_blank">
-  <img src="./assets/social_icons/facebook.png">
-</a>
-  <a href="  https://www.google.com/search?sxsrf=APq-" target="_blank">
-  <img src="./assets/social_icons/g_plus.png">
-</a>
-  <a href=" https://www.skype.com/en/features/skype-web/" target="_blank">
-  <img src="./assets/social_icons/skype.png">
-</a>
-  <a href=" https://www.stumbleupon.com/" target="_blank">
-  <img src="./assets/social_icons/stumble_upon.png">
-</a>
-  <a href=" https://www.behance.net/" target="_blank">
-  <img src="./assets/social_icons/behance.png">
-</a>
-  <a href=" https://www.pinterest.com/" target="_blank">
-  <img src="./assets/social_icons/pinterest.png">
-</a>
-  <a href=" https://flickr.com/" target="_blank">
-  <img src="./assets/social_icons/flickr.png">
-</a>
-
+  <a href=" http://twitter.com/" target="_blank"> <img src="./assets/social_icons/twitter.png"></a>
+ <a href=" https://dribbble.com/" target="_blank"><img src="./assets/social_icons/dribble.png"></a>
+  <a href=" https://www.facebook.com/" target="_blank"><img src="./assets/social_icons/facebook.png"></a>
+  <a href="  https://www.google.com/search?sxsrf=APq-" target="_blank"><img src="./assets/social_icons/g_plus.png"></a>
+  <a href=" https://www.skype.com/en/features/skype-web/" target="_blank"><img src="./assets/social_icons/skype.png"></a>
+  <a href=" https://www.stumbleupon.com/" target="_blank"><img src="./assets/social_icons/stumble_upon.png"></a>
+  <a href=" https://www.behance.net/" target="_blank"><img src="./assets/social_icons/behance.png"></a>
+  <a href=" https://www.pinterest.com/" target="_blank"><img src="./assets/social_icons/pinterest.png"></a>
+  <a href=" https://flickr.com/" target="_blank"><img src="./assets/social_icons/flickr.png"></a>
 </div>
     
     <footer>

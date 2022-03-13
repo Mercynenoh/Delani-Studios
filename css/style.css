@@ -34,6 +34,8 @@ h1{
 #about{
     padding-top: 50px;
 }
+
+
 .intro{
     padding:135px;
 }
@@ -60,7 +62,7 @@ h1{
       padding-bottom: 30px;
   }
   .btn-light{
-      background-color: white;
+      background-color: grey;
       color: black;
   }
   .btn-dark{
@@ -68,9 +70,6 @@ h1{
       color: white;
   }
 
-  form{
-    opacity: 100%;
-  }
  .form-control{
    border: white;
  }
@@ -78,21 +77,6 @@ h1{
   position: relative;
 
 }
-
-/* .text-block {
-  border: solid;
-  position: absolute;
-  width: 180px;
-  height: 150px;
-bottom: 50px;
-  right: 50px;
-  background-color:none;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  display: none;
-} */
 
 * .text-block {
     border: solid;
@@ -108,4 +92,6 @@ bottom: 50px;
     text-align: center;
     display: none;
 }
-
+.row{
+    padding-bottom: 1px;
+}

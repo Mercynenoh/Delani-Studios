@@ -26,7 +26,7 @@ $(".de").click(function(){
         $(".prod").hide();
         $("#product").click(function(){
             $(".product").hide();
-            $(".product").show();
+            $(".prod").show();
           
           
         });
@@ -51,14 +51,3 @@ $(".image").hover(function(){
 })
 });
 
-$(document).ready(function(){
-$("contactForm").submit(function(event){
-event.preventDefault();
-$("submit").click(function(){
-    showMessage("Sending message..");
-    $("#output").text(showMessage);
-})
-
-
-});
-});
