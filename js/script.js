@@ -26,7 +26,7 @@ $(".de").click(function(){
         $(".prod").hide();
         $("#product").click(function(){
             $(".product").hide();
-            $(".prod").show();
+            $(".product").show();
           
           
         });
