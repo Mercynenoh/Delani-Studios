@@ -92,10 +92,8 @@ h1{
     text-align: center;
     display: none;
 }
-.row{
-    padding-bottom: 1px;
-}
-
-#home{
-    background-image: url(../assets/backgrounds/h_img.jpg);
+.box1{
+    height: 7vh;
+    width: 30vw;
+    padding: 5px;
 }
