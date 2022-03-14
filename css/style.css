@@ -93,7 +93,9 @@ h1{
     display: none;
 }
 .box1{
-    height: 7vh;
-    width: 30vw;
-    padding: 5px;
+    padding-right: 5px;
+}
+
+.logo{
+    padding-top: 195px;
 }

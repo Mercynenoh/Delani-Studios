@@ -21,7 +21,7 @@ rel="stylesheet"
 />
 <link rel="stylesheet" href="./css/style.css">
     <script src="./js/jquery-3.6.0.js"></script>
-  <title>Document</title>
+  <title>Delani Studio</title>
 </head>
 <body>
 
@@ -33,12 +33,14 @@ rel="stylesheet"
     height: 100vh;
   "
 >
-<img src="./assets/logo/logo.png">
-         
+<img class="logo" src="./assets/logo/logo.png">
+<br> 
 <h1 class="text-white">WELCOME</h1>
 <h1 class="text-white">TO DELANI STUDIO</h1>
 <p class="text-white">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-<img src="./assets/mouse_click.png">
+<br> <br> <br> <br> <br> <br> 
+
+<img id="click" src="./assets/mouse_click.png">
 </div>
 <!-- Background image -->
 
@@ -172,7 +174,7 @@ rel="stylesheet"
   
 <div class="container-fluid">
   <div
-  class="bg-image d-flex flex-column justify-content-center align-items-center"
+  class="bg-image d-flex flex-column justify-content-center align-items-center mt-5"
   style="
     background-image: url('./assets/backgrounds/c_image.jpg');
     height: 70vh;
@@ -181,12 +183,13 @@ rel="stylesheet"
 <h1 class="text-white">Contact Us</h1>
 <form action="https://formspree.io/f/xeqnzqek"  method="POST">
   <div class="row nav-item dropdown" >
-    <div class="col-lg-6 form-outline box1">
-      <label for="pwd" class="form-label text-white ">Name...</label>
+    <div class="col-lg-6 form-outline text-white">
+      <label for="pwd" >Name</label>
       <input type="text" class="form-control text-white" id="pwd"  name="text">
     </div>
-    <div class="col-lg-6 form-outline box1 ml-2">
-      <label for="email" class="form-label text-white"> Email...</label>
+    
+    <div class="col-lg-6 form-outline text-white">
+      <label for="email" placeholder=" Email">Email</label>
       <input type="email" class="form-control bg-transparent text-white" id="email"  name="email">
     </div>
       
