@@ -24,7 +24,10 @@ rel="stylesheet"
   <title>Delani Studio</title>
 </head>
 <body>
-
+<div>
+  <button type="button" class="btn btn-light" id="white">light-mode</button>
+<button type="button" class="btn btn-dark" id="black">dark-mode</button>
+</div>
 <!-- Background image -->
 <div
   class="bg-image d-flex flex-column justify-content-center align-items-center"
@@ -185,12 +188,12 @@ rel="stylesheet"
   <div class="row nav-item dropdown" >
     <div class="col-lg-6 form-outline text-white">
       <label for="pwd" >Name</label>
-      <input type="text" class="form-control text-white" id="pwd"  name="text">
+      <input type="text" class="form-control text-white " id="pwd"  name="text">
     </div>
     
     <div class="col-lg-6 form-outline text-white">
       <label for="email" placeholder=" Email">Email</label>
-      <input type="email" class="form-control bg-transparent text-white" id="email"  name="email">
+      <input type="email" class="form-control  text-white" id="email"  name="email">
     </div>
       
     <div class="form-check ">
@@ -199,7 +202,7 @@ rel="stylesheet"
  
  <div class="form-outline text-white">
   <label for="comment"> Your message here...</label> 
-  <textarea class="form-control bg-transparent text-white " rows="5" id="comment"  name="text"></textarea>
+  <textarea class="form-control text-white " rows="5" id="comment"  name="text"></textarea>
  </div>
  
   <button id="submit" type="submit" class="btn btn-secondary" text-align-center>Submit</button>
