@@ -41,7 +41,7 @@ $(document).ready(function(){
         $("body").removeClass();
         $("body").addClass("btn-dark");
     });
-});
+}
 });
 
 $(document).ready(function(){
