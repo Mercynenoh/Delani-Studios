@@ -78,7 +78,7 @@ h1{
 
 }
 
-* .text-block {
+* .text-block1, .text-block2, .text-block3, .text-block4, .text-block5, .text-block6, .text-block7, .text-block8 {
     border: solid;
     position: absolute;
     width: 150px;
