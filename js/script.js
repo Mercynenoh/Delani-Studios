@@ -60,7 +60,7 @@ $(".de").click(function(){
         });
         $("#seven").hover(function(){
             $(".text-block7").toggle();
-        });
+      
         $("#eight").hover(function(){
             $(".text-block8").toggle();
         });
@@ -72,5 +72,3 @@ $(".de").click(function(){
    
     
 
-
-  
