@@ -64,17 +64,11 @@ $(".de").click(function(){
         $("#eight").hover(function(){
             $(".text-block8").toggle();
         });
-        
+
+        $("button").click(function(){
+            $("#form")[0].reset();
+        });
     });
    
     
-
-
-
-    
-
-
-
-
-
 
